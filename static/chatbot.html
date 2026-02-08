@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zipcar FAQ Chatbot</title>
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Zipcar FAQ Chatbot</h1>
+    <form id="chat-form">
+      <input id="query-input" type="text" placeholder="Ask a Zipcar question..." required autocomplete="off">
+      <button type="submit">Ask</button>
+    </form>
+
+    <div id="conversation"></div>
+
+    <section id="response-panel">
+      <h2>Answer</h2>
+      <div id="answer">No answer yet.</div>
+      <h3>Relevant Links</h3>
+      <ul id="links"></ul>
+    </section>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
